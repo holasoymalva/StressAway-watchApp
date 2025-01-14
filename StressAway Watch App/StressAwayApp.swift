@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import HealthKit
+import WatchKit
 
 @main
-struct StressAway_Watch_AppApp: App {
+struct StressAwayApp: App {
+    @StateObject private var healthKitManager = HealthKitManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+                    .environmentObject(healthKitManager)
+            }
         }
     }
 }
