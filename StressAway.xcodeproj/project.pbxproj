@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA05A6872D363204004EF7BD /* StressAway Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AA05A6862D363204004EF7BD /* StressAway Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA05A6882D363204004EF7BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA05A67A2D363203004EF7BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA05A6852D363204004EF7BD;
+			remoteInfo = "StressAway Watch App";
+		};
+		AA05A6992D363206004EF7BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA05A67A2D363203004EF7BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA05A6852D363204004EF7BD;
+			remoteInfo = "StressAway Watch App";
+		};
+		AA05A6A32D363206004EF7BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA05A67A2D363203004EF7BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA05A6852D363204004EF7BD;
+			remoteInfo = "StressAway Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA05A6AF2D363206004EF7BD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AA05A6872D363204004EF7BD /* StressAway Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA05A6802D363204004EF7BD /* StressAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StressAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA05A6862D363204004EF7BD /* StressAway Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StressAway Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA05A6982D363206004EF7BD /* StressAway Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StressAway Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA05A6A22D363206004EF7BD /* StressAway Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StressAway Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA05A68A2D363204004EF7BD /* StressAway Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "StressAway Watch App";
+			sourceTree = "<group>";
+		};
+		AA05A69B2D363206004EF7BD /* StressAway Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "StressAway Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AA05A6A52D363206004EF7BD /* StressAway Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "StressAway Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA05A6832D363204004EF7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA05A6952D363206004EF7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA05A69F2D363206004EF7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA05A6792D363203004EF7BD = {
+			isa = PBXGroup;
+			children = (
+				AA05A68A2D363204004EF7BD /* StressAway Watch App */,
+				AA05A69B2D363206004EF7BD /* StressAway Watch AppTests */,
+				AA05A6A52D363206004EF7BD /* StressAway Watch AppUITests */,
+				AA05A6812D363204004EF7BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA05A6812D363204004EF7BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA05A6802D363204004EF7BD /* StressAway.app */,
+				AA05A6862D363204004EF7BD /* StressAway Watch App.app */,
+				AA05A6982D363206004EF7BD /* StressAway Watch AppTests.xctest */,
+				AA05A6A22D363206004EF7BD /* StressAway Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA05A67F2D363204004EF7BD /* StressAway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA05A6B02D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway" */;
+			buildPhases = (
+				AA05A67E2D363204004EF7BD /* Resources */,
+				AA05A6AF2D363206004EF7BD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA05A6892D363204004EF7BD /* PBXTargetDependency */,
+			);
+			name = StressAway;
+			packageProductDependencies = (
+			);
+			productName = StressAway;
+			productReference = AA05A6802D363204004EF7BD /* StressAway.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AA05A6852D363204004EF7BD /* StressAway Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA05A6AC2D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway Watch App" */;
+			buildPhases = (
+				AA05A6822D363204004EF7BD /* Sources */,
+				AA05A6832D363204004EF7BD /* Frameworks */,
+				AA05A6842D363204004EF7BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA05A68A2D363204004EF7BD /* StressAway Watch App */,
+			);
+			name = "StressAway Watch App";
+			packageProductDependencies = (
+			);
+			productName = "StressAway Watch App";
+			productReference = AA05A6862D363204004EF7BD /* StressAway Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA05A6972D363206004EF7BD /* StressAway Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA05A6B32D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway Watch AppTests" */;
+			buildPhases = (
+				AA05A6942D363206004EF7BD /* Sources */,
+				AA05A6952D363206004EF7BD /* Frameworks */,
+				AA05A6962D363206004EF7BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA05A69A2D363206004EF7BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA05A69B2D363206004EF7BD /* StressAway Watch AppTests */,
+			);
+			name = "StressAway Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "StressAway Watch AppTests";
+			productReference = AA05A6982D363206004EF7BD /* StressAway Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA05A6A12D363206004EF7BD /* StressAway Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA05A6B62D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway Watch AppUITests" */;
+			buildPhases = (
+				AA05A69E2D363206004EF7BD /* Sources */,
+				AA05A69F2D363206004EF7BD /* Frameworks */,
+				AA05A6A02D363206004EF7BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA05A6A42D363206004EF7BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA05A6A52D363206004EF7BD /* StressAway Watch AppUITests */,
+			);
+			name = "StressAway Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "StressAway Watch AppUITests";
+			productReference = AA05A6A22D363206004EF7BD /* StressAway Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA05A67A2D363203004EF7BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA05A67F2D363204004EF7BD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA05A6852D363204004EF7BD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA05A6972D363206004EF7BD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA05A6852D363204004EF7BD;
+					};
+					AA05A6A12D363206004EF7BD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA05A6852D363204004EF7BD;
+					};
+				};
+			};
+			buildConfigurationList = AA05A67D2D363203004EF7BD /* Build configuration list for PBXProject "StressAway" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA05A6792D363203004EF7BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA05A6812D363204004EF7BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA05A67F2D363204004EF7BD /* StressAway */,
+				AA05A6852D363204004EF7BD /* StressAway Watch App */,
+				AA05A6972D363206004EF7BD /* StressAway Watch AppTests */,
+				AA05A6A12D363206004EF7BD /* StressAway Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA05A67E2D363204004EF7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA05A6842D363204004EF7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA05A6962D363206004EF7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA05A6A02D363206004EF7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA05A6822D363204004EF7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA05A6942D363206004EF7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA05A69E2D363206004EF7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA05A6892D363204004EF7BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA05A6852D363204004EF7BD /* StressAway Watch App */;
+			targetProxy = AA05A6882D363204004EF7BD /* PBXContainerItemProxy */;
+		};
+		AA05A69A2D363206004EF7BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA05A6852D363204004EF7BD /* StressAway Watch App */;
+			targetProxy = AA05A6992D363206004EF7BD /* PBXContainerItemProxy */;
+		};
+		AA05A6A42D363206004EF7BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA05A6852D363204004EF7BD /* StressAway Watch App */;
+			targetProxy = AA05A6A32D363206004EF7BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA05A6AA2D363206004EF7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA05A6AB2D363206004EF7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA05A6AD2D363206004EF7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StressAway Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StressAway;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calmify.StressAway.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AA05A6AE2D363206004EF7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StressAway Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StressAway;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calmify.StressAway.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AA05A6B12D363206004EF7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				INFOPLIST_KEY_CFBundleDisplayName = StressAway;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calmify.StressAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA05A6B22D363206004EF7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				INFOPLIST_KEY_CFBundleDisplayName = StressAway;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calmify.StressAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA05A6B42D363206004EF7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmify.StressAway-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StressAway Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StressAway Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AA05A6B52D363206004EF7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmify.StressAway-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StressAway Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StressAway Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		AA05A6B72D363206004EF7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmify.StressAway-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "StressAway Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		AA05A6B82D363206004EF7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUM2AVRA9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "calmify.StressAway-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "StressAway Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA05A67D2D363203004EF7BD /* Build configuration list for PBXProject "StressAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05A6AA2D363206004EF7BD /* Debug */,
+				AA05A6AB2D363206004EF7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA05A6AC2D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05A6AD2D363206004EF7BD /* Debug */,
+				AA05A6AE2D363206004EF7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA05A6B02D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05A6B12D363206004EF7BD /* Debug */,
+				AA05A6B22D363206004EF7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA05A6B32D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05A6B42D363206004EF7BD /* Debug */,
+				AA05A6B52D363206004EF7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA05A6B62D363206004EF7BD /* Build configuration list for PBXNativeTarget "StressAway Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05A6B72D363206004EF7BD /* Debug */,
+				AA05A6B82D363206004EF7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA05A67A2D363203004EF7BD /* Project object */;
+}
